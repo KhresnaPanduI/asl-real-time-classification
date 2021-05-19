@@ -52,8 +52,8 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
     private var rgbBytes: IntArray? = null
     private lateinit var previewReader: ImageReader
     private val mInputSize = 224
-    private val mModelPath = "mobilenet_v1_1.0_224_quant.tflite"
-    private val mLabelPath = "labels_mobilenet_quant_v1_224.txt"
+    private val mModelPath = "quantized_converted_modelrps.tflite"
+    private val mLabelPath = "labelsrps.txt"
     private var rgbFrameBitmap: Bitmap? = null
 
     /**
