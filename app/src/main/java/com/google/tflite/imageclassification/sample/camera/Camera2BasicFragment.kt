@@ -52,7 +52,7 @@ class Camera2BasicFragment : Fragment(), View.OnClickListener,
     private var rgbBytes: IntArray? = null
     private lateinit var previewReader: ImageReader
     private val mInputSize = 224
-    private val mModelPath = "quantized_asl_model25.tflite"
+    private val mModelPath = "asl_modelMaker.tflite"
     private val mLabelPath = "asl_labels.txt"
     private var rgbFrameBitmap: Bitmap? = null
 
